@@ -1,0 +1,11 @@
+api:
+  url: "https://danepubliczne.imgw.pl/api/data/synop"
+  timeout: 10
+
+logging:
+  level: "INFO"
+  filepath: "logs/app.log"
+
+storage:
+  output_dir: "data"
+  filename_prefx: "synop_data"
