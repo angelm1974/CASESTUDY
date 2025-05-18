@@ -8,4 +8,4 @@ logging:
 
 storage:
   output_dir: "data"
-  filename_prefx: "synop_data"
+  filename_prefix: "synop_data"

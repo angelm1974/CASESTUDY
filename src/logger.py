@@ -13,7 +13,7 @@ def setup_logging(config_path="config/config.yaml"):
         level = log_config['level'],
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
         handlers=[
-            logging.FileHandler(log_config['filepath']),
+            logging.FileHandler(log_config['filepath'],encoding='utf-8'),
             logging.StreamHandler()
         ]
     )
